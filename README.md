@@ -32,11 +32,6 @@
 * Выполнить команду `npm install` для установки всех зависимостей
 * Выполнить команду `npm run start` — запускает проект
 
-## Макет
-
-dark-5 - название макета
-[Ссылка на макет](https://www.figma.com/file/kJ8H1TWp6orqTLdeYQfqI1/light-1-(Copy)?node-id=1%3A12065&mode=dev)
-
 ## Адрес репозитория
 
 [Ссылка на Front-end](https://github.com/rust007-91/basket-test-vk-react)
