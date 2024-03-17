@@ -1,0 +1,120 @@
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px #A5A7AD;
+    margin-top: 20px;
+}
+
+.card__header {
+    padding: 10px;
+}
+
+
+.card__column {
+    min-height: 96px;
+    display: flex;
+    padding: 10px;
+}
+
+.card__content-box {
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card__column-left {
+    display: flex;
+    width: 75%;
+    border-right: solid 1px #A5A7AD;
+}
+
+.card__column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 12px 0;
+    width: 25%;
+}
+
+.card__total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__button-sell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 36px;
+    background-color: #005FF9;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.card__photo {
+    width: 143px;
+    height: 143px;
+    border-radius: 10px;
+}
+
+.card__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 32px;
+    border-radius: 10px;
+    border: solid 1px #A5A7AD;
+    padding: 0;
+    margin: 0;
+
+}
+
+.count__button {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+    color: #A5A7AD;
+    fill: currentColor;
+    cursor: pointer;
+}
+
+.count__button:hover {
+    color: #005CF1;
+}
+
+.count__text {
+    padding: 0;
+    margin: 0;
+}
+
+.delete__button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+    color: #A5A7AD;
+    fill: currentColor;
+    cursor: pointer;
+}
+
+.delete__button:hover {
+    color: #8B8E95;
+}
