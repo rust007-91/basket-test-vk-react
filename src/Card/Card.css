@@ -1,16 +1,20 @@
 .container {
     box-sizing: border-box;
     width: 100%;
+    border-radius: 10px;
+    border: solid 1px #A5A7AD;
+    margin-top: 20px;
 }
 
 .card__header {
-    padding: 12px 20px 12px 0;
+    padding: 10px;
 }
 
 
 .card__column {
     min-height: 96px;
     display: flex;
+    padding: 10px;
 }
 
 .card__content-box {
@@ -58,7 +62,6 @@
     width: 143px;
     height: 143px;
     border-radius: 10px;
-    object-fit: cover;
 }
 
 .card__item {
